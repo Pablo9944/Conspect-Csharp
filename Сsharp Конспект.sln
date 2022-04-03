@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32210.238
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Сsharp Конспект", "Сsharp Конспект\Сsharp Конспект.csproj", "{9CEC0436-9D1B-480C-AA7B-C614AE32CB68}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{F84624EF-4AB7-4510-BAF8-2F60B84D1E14}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.2 Преобразование типов данных(Явное,неявное,Parse,Tryparse,Convert)", "1.2 Преобразование типов данных\1.2 Преобразование типов данных(Явное,неявное,Parse,Tryparse,Convert).csproj", "{BE368A1E-9903-4093-AFEF-9D816686D952}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum (ConsoleKey, GetUnderlyingType, isDefined, GetValues, Parse, TryParse,switch)", "Enum\Enum (ConsoleKey, GetUnderlyingType, isDefined, GetValues, Parse, TryParse,switch).csproj", "{4B18A47E-3352-44EA-B27A-0534248C8005}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{BE368A1E-9903-4093-AFEF-9D816686D952}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE368A1E-9903-4093-AFEF-9D816686D952}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE368A1E-9903-4093-AFEF-9D816686D952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B18A47E-3352-44EA-B27A-0534248C8005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B18A47E-3352-44EA-B27A-0534248C8005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B18A47E-3352-44EA-B27A-0534248C8005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B18A47E-3352-44EA-B27A-0534248C8005}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
