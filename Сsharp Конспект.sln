@@ -13,7 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.2 Преобразование типов данных(Явное,неявное,Parse,Tryparse,Convert)", "1.2 Преобразование типов данных\1.2 Преобразование типов данных(Явное,неявное,Parse,Tryparse,Convert).csproj", "{BE368A1E-9903-4093-AFEF-9D816686D952}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum (ConsoleKey, GetUnderlyingType, isDefined, GetValues, Parse, TryParse,switch)", "Enum\Enum (ConsoleKey, GetUnderlyingType, isDefined, GetValues, Parse, TryParse,switch).csproj", "{4B18A47E-3352-44EA-B27A-0534248C8005}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.3 Enum (ConsoleKey, GetUnderlyingType, isDefined, GetValues, Parse, TryParse,switch)", "Enum\1.3 Enum (ConsoleKey, GetUnderlyingType, isDefined, GetValues, Parse, TryParse,switch).csproj", "{4B18A47E-3352-44EA-B27A-0534248C8005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.4 const,readonly", "1.4 const,readonly\1.4 const,readonly.csproj", "{68B63BF2-84B9-4A9D-9BFD-E53693F52914}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{4B18A47E-3352-44EA-B27A-0534248C8005}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B18A47E-3352-44EA-B27A-0534248C8005}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B18A47E-3352-44EA-B27A-0534248C8005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B63BF2-84B9-4A9D-9BFD-E53693F52914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B63BF2-84B9-4A9D-9BFD-E53693F52914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B63BF2-84B9-4A9D-9BFD-E53693F52914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B63BF2-84B9-4A9D-9BFD-E53693F52914}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
