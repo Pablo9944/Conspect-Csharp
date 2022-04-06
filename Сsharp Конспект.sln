@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Сsharp Конспект", "Сsharp Конспект\Сsharp Конспект.csproj", "{9CEC0436-9D1B-480C-AA7B-C614AE32CB68}"
 EndProject
@@ -24,6 +24,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.7 Оператор выборки (switch)", "1. 7 Оператор выборки\1.7 Оператор выборки (switch).csproj", "{FBCF24AF-E7BA-4B01-9DE6-BA88FD928631}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.8  Оптимизация рутинных задач циклы (for,while,do while)", "1.8  Оптимизация рутинных задач циклы\1.8  Оптимизация рутинных задач циклы (for,while,do while).csproj", "{A114243E-7DBD-4AAE-ACA2-EADEC65D04A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.9 While (Debug)", "1.9 While\1.9 While (Debug).csproj", "{D6C092F5-EAE5-4F22-BB4D-AEA9BEF02083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{1CE8ECDB-32CB-4800-9CA3-1BB9E74A6BA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{A114243E-7DBD-4AAE-ACA2-EADEC65D04A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A114243E-7DBD-4AAE-ACA2-EADEC65D04A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A114243E-7DBD-4AAE-ACA2-EADEC65D04A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C092F5-EAE5-4F22-BB4D-AEA9BEF02083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C092F5-EAE5-4F22-BB4D-AEA9BEF02083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C092F5-EAE5-4F22-BB4D-AEA9BEF02083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C092F5-EAE5-4F22-BB4D-AEA9BEF02083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CE8ECDB-32CB-4800-9CA3-1BB9E74A6BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE8ECDB-32CB-4800-9CA3-1BB9E74A6BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE8ECDB-32CB-4800-9CA3-1BB9E74A6BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE8ECDB-32CB-4800-9CA3-1BB9E74A6BA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
