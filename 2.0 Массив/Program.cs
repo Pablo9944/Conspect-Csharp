@@ -14,6 +14,8 @@ namespace _2._0_Массив
             int[] myArray = { 1, 2, 4 };
             myArray.GetLength(0);
 
+            int[][] array = new int[3][];
+
         }
     }
 }

@@ -25,6 +25,8 @@ namespace Enum
 
         static void Main(string[] args)
         {
+            //var today = DateTime.Now.DayOfWeek;
+
             //while (true)
             //{
             //    ConsoleKey key = Console.ReadKey().Key;

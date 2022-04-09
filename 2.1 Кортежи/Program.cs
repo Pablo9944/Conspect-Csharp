@@ -48,14 +48,28 @@ namespace _2._1_Кортежи
             //Console.WriteLine("Введите возраст пользователя");
             //User.Age = double.Parse(Console.ReadLine());
             User.favcolors = new string[3];
-            Console.WriteLine("Введите три любимых цвета пользователя");
-            for (int i = 0; i < User.favcolors.Length; i++)
+            //Console.WriteLine("Введите три любимых цвета пользователя");
+           
+            for (int i = 1; i < User.favcolors.Length; i++)
             {
-                Console.Write("Укажите {0} - ый цвет: ", ++i);
+                Console.Write("Укажите {0} - ый цвет: ",++i);
                 i--;
                 User.favcolors[i] = Console.ReadLine();
 
             }
+
+            //Console.WriteLine(User.Name);
+            //Console.WriteLine(User.LastName);
+            //Console.WriteLine(User.Login);
+            //Console.WriteLine(User.LoginLength);
+            //Console.WriteLine(result);
+            //foreach (var item in User.favcolors)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //Console.WriteLine(User.Age);
+
+
 
 
 
