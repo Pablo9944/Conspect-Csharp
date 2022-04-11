@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.0 Массив", "2.0 М�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1 Кортежи", "2.1 Кортежи\2.1 Кортежи.csproj", "{77EFBDE0-0B19-489C-93DF-FE6322AF8493}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.2 Методы (params)", "2.2 Методы (params)\2.2 Методы (params).csproj", "{C4ED06E7-95A1-4386-884E-5780B59E0E0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{77EFBDE0-0B19-489C-93DF-FE6322AF8493}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77EFBDE0-0B19-489C-93DF-FE6322AF8493}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77EFBDE0-0B19-489C-93DF-FE6322AF8493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4ED06E7-95A1-4386-884E-5780B59E0E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4ED06E7-95A1-4386-884E-5780B59E0E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4ED06E7-95A1-4386-884E-5780B59E0E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4ED06E7-95A1-4386-884E-5780B59E0E0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
