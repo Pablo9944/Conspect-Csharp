@@ -39,7 +39,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3 Рекурсия", "2.3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.4 Работа с файлами (string,char)", "2.4 Работа с файлами\2.4 Работа с файлами (string,char).csproj", "{968FA5FB-2D3B-4CD3-9B4F-C25D94C6A80A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.5 Работа с файлами (File, FileInfo, Directory, DirectoryInfo)", "2.5 Работа с файлами (File, FileInfo, Directory, DirectoryInfo)\2.5 Работа с файлами (File, FileInfo, Directory, DirectoryInfo).csproj", "{D7C19408-A450-4E0C-A9DF-5CBFC576F74C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.5 Работа с файлами (File, FileInfo, Directory, DirectoryInfo,StreamWriter,StreamReader)", "2.5 Работа с файлами (File, FileInfo, Directory, DirectoryInfo)\2.5 Работа с файлами (File, FileInfo, Directory, DirectoryInfo,StreamWriter,StreamReader).csproj", "{D7C19408-A450-4E0C-A9DF-5CBFC576F74C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

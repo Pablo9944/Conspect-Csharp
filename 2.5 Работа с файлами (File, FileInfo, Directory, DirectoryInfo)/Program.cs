@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
+
+
 
 namespace _2._5_Работа_с_файлами__File__FileInfo__Directory__DirectoryInfo_
 {
@@ -11,19 +13,19 @@ namespace _2._5_Работа_с_файлами__File__FileInfo__Directory__Direc
     {
         static void Main(string[] args)
         {
-            string path = File.ReadAllText(@"D:\C#.txt"); //Открывыает файл,считывает вске строки,а затем закрывает файл
-            string way = (@"D:\C#.txt");
-            string way1 = (@"D:\test.txt");
-            //Console.WriteLine(path);
+            //string path = File.ReadAllText(@"D:\C#.txt"); //Открывыает файл,считывает вске строки,а затем закрывает файл
+            //string way = (@"D:\C#.txt");
+            //string way1 = (@"D:\test.txt");
+            ////Console.WriteLine(path);
 
-            string[] lines = File.ReadAllLines(@"D:\C#.txt");
-            Console.WriteLine(lines[0]);
+            //string[] lines = File.ReadAllLines(@"D:\C#.txt");
+            //Console.WriteLine(lines[0]);
 
-            lines = new string[] { "один", "два", "три" };
-            File.WriteAllLines(@"D:\C#.txt", lines);       //создает массив и записывает данные,если были данные то поверх перезаписывает
-           
-            lines = new string[] { "один", "два", "три" };
-            File.AppendAllLines(@"D:\C#.txt", lines);
+            //lines = new string[] { "один", "два", "три" };
+            //File.WriteAllLines(@"D:\C#.txt", lines);       //создает массив и записывает данные,если были данные то поверх перезаписывает
+
+            //lines = new string[] { "один", "два", "три" };
+            //File.AppendAllLines(@"D:\C#.txt", lines);
 
             //string path1 = File.ReadAllText(@"D:\test.txt"); //берез из файла текст и добавляет без замены в указанный файл
             //File.AppendAllText(@"D:\C#.txt", path1);
@@ -59,17 +61,72 @@ namespace _2._5_Работа_с_файлами__File__FileInfo__Directory__Direc
             //    Console.WriteLine(file.Name);
             //}
 
-            DirectoryInfo directoryInfo1 = new DirectoryInfo(@"D:\");
-            DirectoryInfo[] array = directoryInfo1.GetDirectories();
-            foreach (var item in array)
-            {
-                Console.WriteLine(item.FullName);
-            }
+            //DirectoryInfo directoryInfo1 = new DirectoryInfo(@"D:\");
+            //DirectoryInfo[] array = directoryInfo1.GetDirectories();
+            //foreach (var item in array)
+            //{
+            //    Console.WriteLine(item.FullName);
+            //}
 
             #endregion
-        }
+
+            #region StreamWriter и StreamReader
+            DirectoryInfo[] dir = new DirectoryInfo(@"D:\").GetDirectories();
+            string path = (@"D:\cDirs.txt");
+            //Console.WriteLine(File.Exists(path));
+            //if (!File.Exists(path))
+            //{
+            //    File.Create(path);
+            //    foreach (var item in dir)
+            //    {
+            //        File.AppendAllText(path, item.FullName.ToString() + Environment.NewLine);
+            //        Console.WriteLine();
+            //    }
+            //}
+            //else
+            //{
+            //    foreach (var item in dir)
+            //    {
+            //        File.AppendAllText(path, item.FullName.ToString() + Environment.NewLine);
+            //        Console.WriteLine();
+            //    }
+            //}
+
+            //StreamWriter streamWriter = new StreamWriter("cDirs.txt"); // Создание потока для работы с файлом cDirs.txt
+
+            //foreach (DirectoryInfo Dir in dir)
+            //{
+            //    streamWriter.WriteLine(Dir.Name);  // !Если меньше 4кб то не выгружает на диск
+            //    Console.WriteLine(Dir.Name);
+            //}
+            //streamWriter.Flush(); // записывает файлы даже если меньше 4кб
+            //streamWriter.Close(); // закрывает поток
 
 
+            //using (StreamWriter sw = new StreamWriter(path))  //автоматически закрывает поток
+            //    foreach (DirectoryInfo Dir in dir)
+            //    {
+            //        sw.WriteLine(Dir.Name);  // !Если меньше 4кб то не выгружает на диск
+            //        Console.WriteLine(Dir.Name);
+            //    }
 
+
+            //using (StreamWriter sr = new StreamWriter(path))  //автоматически закрывает поток
+            //{
+            //    sr.EndOfStream
+            //}
+
+            using (StreamReader sr = new StreamReader("cDirs.txt"))
+            {
+                while (!sr.EndOfStream)
+                {
+                    Console.WriteLine(sr.ReadLine()); //Записать текущее имя каталога в файл
+                }
+            }
+
+
+            #endregion
+         }
+
+       }
     }
-}
