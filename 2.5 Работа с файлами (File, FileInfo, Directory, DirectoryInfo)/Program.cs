@@ -51,18 +51,20 @@ namespace _2._5_Работа_с_файлами__File__FileInfo__Directory__Direc
             #endregion
 
             #region DirectoryInfo
-            DirectoryInfo directoryInfo = new DirectoryInfo(@"D:\MyDir");
+            //DirectoryInfo directoryInfo = new DirectoryInfo(@"D:\MyDir");
 
-             FileInfo[] array = directoryInfo.GetFiles();
-            foreach (var file in array)
+            // FileInfo[] array = directoryInfo.GetFiles();
+            //foreach (var file in array)
+            //{
+            //    Console.WriteLine(file.Name);
+            //}
+
+            DirectoryInfo directoryInfo1 = new DirectoryInfo(@"D:\");
+            DirectoryInfo[] array = directoryInfo1.GetDirectories();
+            foreach (var item in array)
             {
-                Console.WriteLine(file.Name);
+                Console.WriteLine(item.FullName);
             }
-            
-
-
-
-
 
             #endregion
         }
