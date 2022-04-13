@@ -1,18 +1,22 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-class MainClass
+namespace test
 {
-	public static void Main(string[] args)
-	{
-        string name = null;
-        name += $"{Console.ReadLine()}\t";
-        name += $"{Console.ReadLine()}\t";
-        name += $"{Console.ReadLine()}\t";
-        name += $"{Console.ReadLine()}\t";
-        name += $"{Console.ReadLine()}\t";
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            char[] c = { '1', 'c', 'w', 'r', 's', 't' };
 
-        Console.WriteLine(name);
-        Console.ReadLine();
+            string s = c.ToString();
 
+            Console.WriteLine(s);
+
+        }
+    }
     }
 }
