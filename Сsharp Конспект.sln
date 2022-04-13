@@ -27,8 +27,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.8  Оптимизация
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.9 While (Debug)", "1.9 While\1.9 While (Debug).csproj", "{D6C092F5-EAE5-4F22-BB4D-AEA9BEF02083}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{1CE8ECDB-32CB-4800-9CA3-1BB9E74A6BA0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.0 Массив", "2.0 Массив\2.0 Массив.csproj", "{50846C4B-24A8-42C9-9405-1F48778DA2EF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1 Кортежи", "2.1 Кортежи\2.1 Кортежи.csproj", "{77EFBDE0-0B19-489C-93DF-FE6322AF8493}"
@@ -37,9 +35,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.2 Методы (params)",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3 Рекурсия", "2.3 Рекурсия\2.3 Рекурсия.csproj", "{39D24C87-F775-4232-8562-901FDBF5CD68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.4 Работа с файлами (string,char)", "2.4 Работа с файлами\2.4 Работа с файлами (string,char).csproj", "{968FA5FB-2D3B-4CD3-9B4F-C25D94C6A80A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.4 Работа с файлами (string,char,DateTime,TimeSpan)", "2.4 Работа с файлами\2.4 Работа с файлами (string,char,DateTime,TimeSpan).csproj", "{968FA5FB-2D3B-4CD3-9B4F-C25D94C6A80A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.5 Работа с файлами (File, FileInfo, Directory, DirectoryInfo,StreamWriter,StreamReader)", "2.5 Работа с файлами (File, FileInfo, Directory, DirectoryInfo)\2.5 Работа с файлами (File, FileInfo, Directory, DirectoryInfo,StreamWriter,StreamReader).csproj", "{D7C19408-A450-4E0C-A9DF-5CBFC576F74C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.5.1 StreamWriter и StreamReader, StringBuilder", "2.5.1 StreamWriter и StreamReader\2.5.1 StreamWriter и StreamReader, StringBuilder.csproj", "{92C34BB7-8FE8-45F6-B138-F102DAD9FFAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1)HomeWork (File)", "1)HomeWork\1)HomeWork (File).csproj", "{2E39A7E9-A22B-4EF8-B19E-560E2BE50559}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,10 +97,6 @@ Global
 		{D6C092F5-EAE5-4F22-BB4D-AEA9BEF02083}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6C092F5-EAE5-4F22-BB4D-AEA9BEF02083}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6C092F5-EAE5-4F22-BB4D-AEA9BEF02083}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1CE8ECDB-32CB-4800-9CA3-1BB9E74A6BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1CE8ECDB-32CB-4800-9CA3-1BB9E74A6BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1CE8ECDB-32CB-4800-9CA3-1BB9E74A6BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1CE8ECDB-32CB-4800-9CA3-1BB9E74A6BA0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{50846C4B-24A8-42C9-9405-1F48778DA2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{50846C4B-24A8-42C9-9405-1F48778DA2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50846C4B-24A8-42C9-9405-1F48778DA2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -123,6 +121,14 @@ Global
 		{D7C19408-A450-4E0C-A9DF-5CBFC576F74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7C19408-A450-4E0C-A9DF-5CBFC576F74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7C19408-A450-4E0C-A9DF-5CBFC576F74C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92C34BB7-8FE8-45F6-B138-F102DAD9FFAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C34BB7-8FE8-45F6-B138-F102DAD9FFAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C34BB7-8FE8-45F6-B138-F102DAD9FFAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C34BB7-8FE8-45F6-B138-F102DAD9FFAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E39A7E9-A22B-4EF8-B19E-560E2BE50559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E39A7E9-A22B-4EF8-B19E-560E2BE50559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E39A7E9-A22B-4EF8-B19E-560E2BE50559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E39A7E9-A22B-4EF8-B19E-560E2BE50559}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
