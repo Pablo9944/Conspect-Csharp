@@ -97,7 +97,12 @@ namespace _2._0_Массив
                 }
                 Console.WriteLine();
             }
-        
+
+            char[] c = { '1', 'c', 'w', 'r', 's', 't' };
+
+            string s = new string(c);
+
+            Console.WriteLine(s);
         }
     }
 }

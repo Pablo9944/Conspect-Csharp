@@ -10,6 +10,21 @@ namespace _2._4_Работа_с_файлами
     {
         static void Main(string[] args)
         {
+            
+            
+            /* Random r = new Random();
+
+            DateTime dateofbirth;
+            
+
+            dateofbirth = new DateTime(r.Next(1980,2000), r.Next(1, 13),r.Next(1, 31));
+            Console.WriteLine(dateofbirth);
+            */
+
+            
+            
+            
+            
             //DateTime date = new DateTime(2022, 09, 28, 01, 30, 00);
             //Console.WriteLine(date);
 

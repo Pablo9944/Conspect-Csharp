@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1317491E-E4AF-493B-A946-CF2A2E5D0615}</ProjectGuid>
+    <ProjectGuid>{A451F9BA-8677-48BB-BACF-83E50B7A3BC7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>test</RootNamespace>
-    <AssemblyName>test</AssemblyName>
+    <RootNamespace>_2._7._1_Методы__ref__in_</RootNamespace>
+    <AssemblyName>2.7.1 Методы %28ref, in%29</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,12 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\2.6 Struct\2.6 Struct%28 Перегрузка конструктора, this%29.csproj">
-      <Project>{FC9066EE-7438-4D1D-91C0-5B339410147D}</Project>
-      <Name>2.6 Struct%28 Перегрузка конструктора, this%29</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
