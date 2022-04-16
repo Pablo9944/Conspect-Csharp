@@ -39,7 +39,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.5 Работа с фай�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.5.1 StreamWriter и StreamReader, StringBuilder", "2.5.1 StreamWriter и StreamReader\2.5.1 StreamWriter и StreamReader, StringBuilder.csproj", "{92C34BB7-8FE8-45F6-B138-F102DAD9FFAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1)HomeWork (File)", "1)HomeWork\1)HomeWork (File).csproj", "{2E39A7E9-A22B-4EF8-B19E-560E2BE50559}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.0 HomeWork (SkillBox -File)", "1)HomeWork\0.0 HomeWork (SkillBox -File).csproj", "{2E39A7E9-A22B-4EF8-B19E-560E2BE50559}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{1317491E-E4AF-493B-A946-CF2A2E5D0615}"
 EndProject
@@ -50,6 +50,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.3.1 Enum (пример с цветами)", "1.3.1 Enum (пример с цветами)\1.3.1 Enum (пример с цветами).csproj", "{401F1C27-2EB3-4020-9469-B7265B4C5B13}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.7.1 Методы (ref,out, in)", "2.7.1 Методы (ref, in)\2.7.1 Методы (ref,out, in).csproj", "{A451F9BA-8677-48BB-BACF-83E50B7A3BC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.1 HomeWork (SkillFactory  5.6.1 (HW-03) - Кортеж)", "0 .1 HomeWork (SkillFactory  5.6.1 (HW-03) - Кортеж)\0.1 HomeWork (SkillFactory  5.6.1 (HW-03) - Кортеж).csproj", "{8C4FB93E-AB27-469B-AE4C-A1585994B595}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{A451F9BA-8677-48BB-BACF-83E50B7A3BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A451F9BA-8677-48BB-BACF-83E50B7A3BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A451F9BA-8677-48BB-BACF-83E50B7A3BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4FB93E-AB27-469B-AE4C-A1585994B595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4FB93E-AB27-469B-AE4C-A1585994B595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4FB93E-AB27-469B-AE4C-A1585994B595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4FB93E-AB27-469B-AE4C-A1585994B595}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
