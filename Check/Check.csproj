@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC9066EE-7438-4D1D-91C0-5B339410147D}</ProjectGuid>
+    <ProjectGuid>{E5DB04E0-39DF-4748-B55D-3636C777B682}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_2._6_Struct</RootNamespace>
-    <AssemblyName>2.6 Struct</AssemblyName>
+    <RootNamespace>Check</RootNamespace>
+    <AssemblyName>Check</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cat.cs" />
-    <Compile Include="Worker.cs" />
-    <Compile Include="MonthlyReport.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository.cs" />
+    <Compile Include="Worker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

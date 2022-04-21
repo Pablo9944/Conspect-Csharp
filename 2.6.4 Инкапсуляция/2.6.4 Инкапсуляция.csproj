@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC9066EE-7438-4D1D-91C0-5B339410147D}</ProjectGuid>
+    <ProjectGuid>{F126D0DB-5F04-4250-A528-51DBA4ECEFFF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_2._6_Struct</RootNamespace>
-    <AssemblyName>2.6 Struct</AssemblyName>
+    <RootNamespace>_2._6._4_Инкапсуляция</RootNamespace>
+    <AssemblyName>2.6.4 Инкапсуляция</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cat.cs" />
-    <Compile Include="Worker.cs" />
-    <Compile Include="MonthlyReport.cs" />
+    <Compile Include="Computer1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

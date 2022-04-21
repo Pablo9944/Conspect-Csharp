@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1317491E-E4AF-493B-A946-CF2A2E5D0615}</ProjectGuid>
+    <ProjectGuid>{F1B7B695-9CB4-40E3-A433-C62F65327A70}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>test</RootNamespace>
-    <AssemblyName>test</AssemblyName>
+    <RootNamespace>_2._6._1_Свойства__get_set_</RootNamespace>
+    <AssemblyName>2.6.1 Свойства %28get,set%29</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -51,7 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\2.6 Struct\2.6 Struct%28 Перегрузка конструктора, this%29.csproj">
-      <Project>{FC9066EE-7438-4D1D-91C0-5B339410147D}</Project>
+      <Project>{fc9066ee-7438-4d1d-91c0-5b339410147d}</Project>
       <Name>2.6 Struct%28 Перегрузка конструктора, this%29</Name>
     </ProjectReference>
   </ItemGroup>

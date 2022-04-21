@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC9066EE-7438-4D1D-91C0-5B339410147D}</ProjectGuid>
+    <ProjectGuid>{B7B5110D-699E-4227-B820-716F0957DBFF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_2._6_Struct</RootNamespace>
-    <AssemblyName>2.6 Struct</AssemblyName>
+    <RootNamespace>_2._6._2_Описание_членов_структуры__индексаторы_</RootNamespace>
+    <AssemblyName>2.6.2 Описание членов структуры %28индексаторы%29</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cat.cs" />
+    <Compile Include="Repository1.cs" />
+    <Compile Include="Repository2.cs" />
+    <Compile Include="Repository3.cs" />
+    <Compile Include="Repository4.cs" />
     <Compile Include="Worker.cs" />
-    <Compile Include="MonthlyReport.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -10,6 +10,21 @@ namespace _2._1_Кортежи
     {
         static void Main(string[] args)
         {
+
+            #region Метод void принимающий параметр - Кортеж
+            // static void Print((string Name, string Surname, uint Age, bool Pets, string[] Nickname, string[] favcolors),User)
+
+            #endregion
+
+            
+            #region Если возвращаемый Кортеж подсвечивается красным
+            
+            //Возможно, где-то внутри if присваивается значение полю кортежа, при этом нет блока else.
+            //Т.е. есть такой варинат исхода событий, что поле не будет заполнено
+            
+            #endregion
+            
+            
             // (string name, int age) anketa;
 
             //var anketa = (name: "Jane", age: 27);

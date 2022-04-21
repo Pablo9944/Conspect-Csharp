@@ -41,8 +41,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.5.1 StreamWriter и Strea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.0 HomeWork (SkillBox -File)", "1)HomeWork\0.0 HomeWork (SkillBox -File).csproj", "{2E39A7E9-A22B-4EF8-B19E-560E2BE50559}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{1317491E-E4AF-493B-A946-CF2A2E5D0615}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.6 Struct( Перегрузка конструктора, this)", "2.6 Struct\2.6 Struct( Перегрузка конструктора, this).csproj", "{FC9066EE-7438-4D1D-91C0-5B339410147D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.7 Методы", "2.7 Методы\2.7 Методы.csproj", "{78EB196A-F6FF-47E0-A8B0-07A5D02DB4F7}"
@@ -52,6 +50,20 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.7.1 Методы (ref,out, in)", "2.7.1 Методы (ref, in)\2.7.1 Методы (ref,out, in).csproj", "{A451F9BA-8677-48BB-BACF-83E50B7A3BC7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.1 HomeWork (SkillFactory  5.6.1 (HW-03) - Кортеж)", "0 .1 HomeWork (SkillFactory  5.6.1 (HW-03) - Кортеж)\0.1 HomeWork (SkillFactory  5.6.1 (HW-03) - Кортеж).csproj", "{8C4FB93E-AB27-469B-AE4C-A1585994B595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.6.1 Свойства (get,set)", "2.6.1 Свойства (get,set)\2.6.1 Свойства (get,set).csproj", "{F1B7B695-9CB4-40E3-A433-C62F65327A70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.6.2 Описание членов структуры (индексаторы)", "2.6.2 Описание членов структуры (индексаторы)\2.6.2 Описание членов структуры (индексаторы).csproj", "{B7B5110D-699E-4227-B820-716F0957DBFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.6.3 Пример", "2.6.3 Пример\2.6.3 Пример.csproj", "{D50D1C58-4FD7-4DB3-A4D8-26734744E2CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check", "Check\Check.csproj", "{E5DB04E0-39DF-4748-B55D-3636C777B682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.6.4 Инкапсуляция", "2.6.4 Инкапсуляция\2.6.4 Инкапсуляция.csproj", "{F126D0DB-5F04-4250-A528-51DBA4ECEFFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.1 HomeWork (SkillBox - 7 модуль Введение в ООП)", "0.1 HomeWork (SkillBox - 7 модуль Введение в ООП)\0.1 HomeWork (SkillBox - 7 модуль Введение в ООП).csproj", "{B28A785C-1612-49CB-AEA7-7D37089BC8A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.0 Коллекции пространство System.Collections.Generic, коллекция List", "3.0 Коллекции пространство System.Collections.Generic, коллекция List\3.0 Коллекции пространство System.Collections.Generic, коллекция List.csproj", "{8AA37D2B-BA9F-40E1-B9D3-9D41A76224BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,10 +147,6 @@ Global
 		{2E39A7E9-A22B-4EF8-B19E-560E2BE50559}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E39A7E9-A22B-4EF8-B19E-560E2BE50559}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E39A7E9-A22B-4EF8-B19E-560E2BE50559}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1317491E-E4AF-493B-A946-CF2A2E5D0615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1317491E-E4AF-493B-A946-CF2A2E5D0615}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1317491E-E4AF-493B-A946-CF2A2E5D0615}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1317491E-E4AF-493B-A946-CF2A2E5D0615}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FC9066EE-7438-4D1D-91C0-5B339410147D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FC9066EE-7438-4D1D-91C0-5B339410147D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC9066EE-7438-4D1D-91C0-5B339410147D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -159,6 +167,34 @@ Global
 		{8C4FB93E-AB27-469B-AE4C-A1585994B595}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C4FB93E-AB27-469B-AE4C-A1585994B595}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C4FB93E-AB27-469B-AE4C-A1585994B595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B7B695-9CB4-40E3-A433-C62F65327A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B7B695-9CB4-40E3-A433-C62F65327A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B7B695-9CB4-40E3-A433-C62F65327A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B7B695-9CB4-40E3-A433-C62F65327A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7B5110D-699E-4227-B820-716F0957DBFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B5110D-699E-4227-B820-716F0957DBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B5110D-699E-4227-B820-716F0957DBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B5110D-699E-4227-B820-716F0957DBFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50D1C58-4FD7-4DB3-A4D8-26734744E2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50D1C58-4FD7-4DB3-A4D8-26734744E2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50D1C58-4FD7-4DB3-A4D8-26734744E2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50D1C58-4FD7-4DB3-A4D8-26734744E2CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5DB04E0-39DF-4748-B55D-3636C777B682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5DB04E0-39DF-4748-B55D-3636C777B682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5DB04E0-39DF-4748-B55D-3636C777B682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5DB04E0-39DF-4748-B55D-3636C777B682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F126D0DB-5F04-4250-A528-51DBA4ECEFFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F126D0DB-5F04-4250-A528-51DBA4ECEFFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F126D0DB-5F04-4250-A528-51DBA4ECEFFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F126D0DB-5F04-4250-A528-51DBA4ECEFFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28A785C-1612-49CB-AEA7-7D37089BC8A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28A785C-1612-49CB-AEA7-7D37089BC8A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28A785C-1612-49CB-AEA7-7D37089BC8A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28A785C-1612-49CB-AEA7-7D37089BC8A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA37D2B-BA9F-40E1-B9D3-9D41A76224BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA37D2B-BA9F-40E1-B9D3-9D41A76224BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA37D2B-BA9F-40E1-B9D3-9D41A76224BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA37D2B-BA9F-40E1-B9D3-9D41A76224BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

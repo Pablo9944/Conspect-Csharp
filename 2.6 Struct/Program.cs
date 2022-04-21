@@ -44,6 +44,7 @@ namespace _2._6_Struct
 
 
 
+
         }
     } 
 }
