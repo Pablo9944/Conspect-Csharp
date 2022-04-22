@@ -41,7 +41,8 @@ namespace _2._6_Struct
             Console.WriteLine(w1.Print());
 
 
-
+            Into i = new Into { name = "Иван", age = 5 };
+            Console.WriteLine(i.name + " " + i.age);
 
 
 
