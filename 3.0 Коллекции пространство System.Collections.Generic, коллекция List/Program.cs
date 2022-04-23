@@ -10,38 +10,32 @@ namespace _3._0_Коллекции_пространство_System.Collections.G
     {
         static void Main(string[] args)
         {
-            //int[] arr = { 1, 2, 3, 4, 5, 6 };
-            //bool result = RemoveAt(ref arr, 3);
-            Arr r = new Arr(5);
-            r.Add(666);
-            r.RemoveAt(0);
-            string s = r.Print();
-            Console.WriteLine(s);
-            
-           
+            Arr arr = new Arr(3);
+            Console.WriteLine(arr.Print("Тест 1:"));
+
+            arr.Add(1);
+            Console.WriteLine(arr.Print("Тест 2:"));
+
+            arr.Add(2);
+            arr.Add(3);
+            Console.WriteLine(arr.Print("Тест 3:"));
+
+            Random r = new Random();
+
+            for (int i = 0; i < 30; i++)
+            {
+                arr.Add(r.Next(0,10));
+            }
+            Console.WriteLine(arr.Print("Тест 4:"));
+
+            arr.Add(11235813);
+            Console.WriteLine(arr.Print("Тест 5:"));
+            Console.WriteLine(arr.Count); 
+            arr.Length();
+
         }
     
-        //static bool RemoveAt ( ref int[] Col , int position)
-        //{
-        //    bool result = false;
-        //    if (position>=0 && position <= Col.Length )
-        //    {
-        //        for (int i = position; i < Col.Length-1; i++)
-        //        {
-        //            Col[i] = Col[i + 1];
-        //        }
-        //        Array.Resize(ref Col, Col.Length - 1);
-        //        result = true;
-                
-        //    }
-
-        //    else
-        //    {
-        //        result = false;
-        //    }
-
-        //    return true;
-        //}
+    
     
         
     }

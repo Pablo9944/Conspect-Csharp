@@ -29,19 +29,47 @@ namespace _3._0_Коллекции_пространство_System.Collections.G
         {
             if (index >= arr.Length)
             {
-                Array.Resize(ref arr, arr.Length * 2 / 3);
+                Array.Resize(ref arr, arr.Length * 3/2  );
             }
 
             arr[index++] = Element;
         }
 
         /// <summary>
-        /// Удаляет элемент под указанной позицией
+        /// Удаление элемента. (не самое лучшее решение)
+        /// </summary>
+        /// <param name="Col"></param>
+        /// <param name="position"></param>
+        /// <returns></returns>
+        public bool RemovAtt(ref int[] Col, int position)
+        {
+            bool result = false;
+            if (position >= 0 && position <= Col.Length)
+            {
+                for (int index = position; index < Col.Length - 1; index++)
+                {
+                    Col[index] = Col[index + 1];
+
+                }
+                Array.Resize(ref Col, Col.Length - 1);
+                result = true;
+            }
+            else
+            {
+                result = false;
+            }
+            return result;
+        }
+
+
+        /// <summary>
+        /// Удаляет элемент под указанной позицией (Это решение лучше)
         /// </summary>
         /// <param name="Position"></param>
-        public void RemoveAt (int Position)
+
+        public void RemoveAt(int Position)
         {
-       
+
             for (int i = Position; i < this.index; i++)
             {
                 arr[i] = arr[i + 1];
@@ -49,7 +77,7 @@ namespace _3._0_Коллекции_пространство_System.Collections.G
 
             this.index--;
             Console.WriteLine(arr[0]);
-       
+
         }
 
         /// <summary>
@@ -57,17 +85,44 @@ namespace _3._0_Коллекции_пространство_System.Collections.G
         /// </summary>
         /// <param name="Text"></param>
         /// <returns></returns>
-        public string Print (string Text =  "")
+        public string Print(string Text = "")
         {
             string output = null;
             for (int i = 0; i < this.index; i++)
             {
-                output += this.arr[i];
+                output += this.arr[i] + " ";
             }
 
             return $"{Text} {output}".Trim();
         }
 
+        /// <summary>
+        /// Индексатор
+        /// </summary>
+        /// <param name="i"></param>
+        /// <returns></returns>
+        public int this[int i]
+        { 
+            get
+            {
+                return this.arr[i];
+            }
 
+            set
+            {
+                 this.arr[i] = value;
+            }
+
+        }
+
+        /// <summary>
+        /// Колличество элементов в массиве
+        /// </summary>
+        public int Count { get { return this.index; } }
+
+        public void Length ()
+        {
+            Console.WriteLine(arr.Length);
+        }
     }
 }
