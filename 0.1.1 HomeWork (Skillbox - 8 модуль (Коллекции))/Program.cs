@@ -19,22 +19,40 @@ namespace _0._1._1_HomeWork__Skillbox___8_модуль__Коллекции__
            Снова выведите числа на экран.*/
 
 
-            List l = new List();
-            l.Print();
-            Console.WriteLine($"Остаток = {l.Count}");
-            Console.ReadKey();
-            Console.WriteLine();
+            //List l = new List();
+            //l.Print();
+            //Console.WriteLine($"Остаток = {l.Count}");
+            //Console.ReadKey();
+            //Console.WriteLine();
 
-            Console.Clear();
-            l.Remove();
-            l.Print(); 
-            Console.WriteLine($"Остаток = {l.Count}");
-            Console.ReadKey();
+            //Console.Clear();
+            //l.Remove();
+            //l.Print(); 
+            //Console.WriteLine($"Остаток = {l.Count}");
+            //Console.ReadKey();
 
 
 
 
             #endregion
+
+            #region Dictionary
+            /*
+             * Пользователю итеративно предлагается вводить в программу номера телефонов и ФИО их владельцев. 
+            В процессе ввода информация размещается в Dictionary, где ключом является номер телефона, 
+            а значением — ФИО владельца. Таким образом, у одного владельца может быть несколько номеров телефонов. 
+            Признаком того, что пользователь закончил вводить номера телефонов, является ввод пустой строки. 
+            Далее программа предлагает найти владельца по введенному номеру телефона. 
+            Пользователь вводит номер телефона и ему выдаётся ФИО владельца. 
+            Если владельца по такому номеру телефона не зарегистрировано, 
+            программа выводит на экран соответствующее сообщение.*/
+
+
+            Dictionary d = new Dictionary();
+            var fio =  d.AddContact();
+            d.Print(fio);
+          
+            #endregion
         }
-    }
+     }
 }
