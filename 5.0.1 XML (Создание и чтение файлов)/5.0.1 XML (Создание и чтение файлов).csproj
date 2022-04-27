@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DA8A8078-B631-45E5-A949-295000966B47}</ProjectGuid>
+    <ProjectGuid>{9C25AE32-6B3E-4D3C-8C45-DF80D6A273D0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_0._1._1_HomeWork__Skillbox___8_модуль__Коллекции__</RootNamespace>
-    <AssemblyName>0.1.1 HomeWork %28Skillbox - 8 модуль %28Коллекции%29%29</AssemblyName>
+    <RootNamespace>_5._0._1_XML__Создание_и_чтение_файлов_</RootNamespace>
+    <AssemblyName>5.0.1 XML %28Создание и чтение файлов%29</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dictionary.cs" />
-    <Compile Include="DictionaryNew.cs" />
-    <Compile Include="List.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Worker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -77,6 +77,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.0.2 Dictionary, HashSet, 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.1.1 HomeWork (Skillbox - 8 модуль (Коллекции))", "0.1.1 HomeWork (Skillbox - 8 модуль (Коллекции))\0.1.1 HomeWork (Skillbox - 8 модуль (Коллекции)).csproj", "{DA8A8078-B631-45E5-A949-295000966B47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.0 Сериализация и Десириализация обьектов", "5.0 Сериализация и Десириализация обьектов\5.0 Сериализация и Десириализация обьектов.csproj", "{A645F5CB-17CF-471A-85AC-4974DE2458A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.0.1 XML (Создание и чтение файлов)", "5.0.1 XML (Создание и чтение файлов)\5.0.1 XML (Создание и чтение файлов).csproj", "{9C25AE32-6B3E-4D3C-8C45-DF80D6A273D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +235,14 @@ Global
 		{DA8A8078-B631-45E5-A949-295000966B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA8A8078-B631-45E5-A949-295000966B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA8A8078-B631-45E5-A949-295000966B47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A645F5CB-17CF-471A-85AC-4974DE2458A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A645F5CB-17CF-471A-85AC-4974DE2458A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A645F5CB-17CF-471A-85AC-4974DE2458A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A645F5CB-17CF-471A-85AC-4974DE2458A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C25AE32-6B3E-4D3C-8C45-DF80D6A273D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C25AE32-6B3E-4D3C-8C45-DF80D6A273D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C25AE32-6B3E-4D3C-8C45-DF80D6A273D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C25AE32-6B3E-4D3C-8C45-DF80D6A273D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

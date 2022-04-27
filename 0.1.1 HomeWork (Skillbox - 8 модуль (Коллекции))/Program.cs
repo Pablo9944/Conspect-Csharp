@@ -49,9 +49,14 @@ namespace _0._1._1_HomeWork__Skillbox___8_модуль__Коллекции__
 
 
             Dictionary d = new Dictionary();
-            var fio =  d.AddContact();
-            d.Print(fio);
-          
+
+            var dic = d.AddContact();
+            //d.Print(dic);
+            d.Find(dic,"123");
+           
+            
+
+            
             #endregion
         }
      }

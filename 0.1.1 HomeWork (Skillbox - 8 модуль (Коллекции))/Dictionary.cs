@@ -1,63 +1,73 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace _0._1._1_HomeWork__Skillbox___8_модуль__Коллекции__
-{
-    public class Dictionary
-    {
-        
-    
-    
-        public Dictionary<uint,string> AddContact()
-        {
-            bool flag = true;
-            Dictionary<uint, string> tempDic = new Dictionary<uint, string>();
-            uint Number = 0;
-            string Name = string.Empty;
-            do
-            {
-                
-                string temp = null;
-                Console.Write("Введите номер телефона: ");
-                temp = Console.ReadLine();
-                Check(temp, out Number);
-                if (Number>0)
-                {
-                    flag = false;
-                }
-            }
-            while (flag);
-                
-            Console.Write("Введите номер Имя: ");
-                Name = Console.ReadLine();
-                tempDic.Add(Number,Name);
-                return tempDic;
+//namespace _0._1._1_HomeWork__Skillbox___8_модуль__Коллекции__
+//{
+//    public class Dictionary
+//    {
 
 
-        }
-    
-        private uint Check(string temp, out uint Number )
-        {
-            if (uint.TryParse(temp,out Number) == false )
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Введите корректное число!");
-                Console.ForegroundColor = ConsoleColor.White;
-            }
-            return Number;
-        }
+//        public Dictionary<string, List<string>> AddContact()
+//        {
+//            string YesNoCheck = null;
+//            Dictionary<string, List<string>> dic = new Dictionary<string, List<string>>();
+//            List<string> list = new List<string>();
+//            bool flag = true;
+//            do
+//            {
+//                Console.Write("Введите ФИО: ");
+//                string FIO = Console.ReadLine();
+//                dic.Add(FIO,list);
+//                do
+//                {
+//                    Console.Write("Введите номер телефона (Если больше не будет номеров телефона просто нажмите \"Enter\": ");
+//                    string temp = Console.ReadLine();
+      
+//                    if (temp == "")
+//                    {
+//                        flag = false;
+//                    }
+//                    else
+//                    {
 
-        public void Print (Dictionary<uint, string> temp)
-        {
-            
-            foreach (KeyValuePair<uint, string> e in temp)
-            {
-                Console.WriteLine(e);
-            }
-        }
-    
-    }
-}
+//                        dic[FIO].Add(temp);
+                           
+                        
+//                    }
+
+//                }
+
+              
+//                while (flag);
+
+//                Console.Write("Добавлять имена с телефонами еще будите? Да/Нет ");
+//                YesNoCheck = Console.ReadLine().ToLower();
+//                if (YesNoCheck == "нет")
+//                {
+//                    flag = false;
+//                }
+
+//            } while (flag);
+
+//            return dic;
+//        }
+
+
+
+//        public void Print(Dictionary<string, List<string>> temp)
+//        {
+//            foreach (var e in temp.Keys)
+//            {
+//                Console.Write($"{e}");
+//                foreach (var item in temp[e])
+//                {
+//                    Console.WriteLine($"\t{item, 5}");
+//                }
+//            }
+//        }
+
+//    }
+//}

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DA8A8078-B631-45E5-A949-295000966B47}</ProjectGuid>
+    <ProjectGuid>{A645F5CB-17CF-471A-85AC-4974DE2458A9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_0._1._1_HomeWork__Skillbox___8_модуль__Коллекции__</RootNamespace>
-    <AssemblyName>0.1.1 HomeWork %28Skillbox - 8 модуль %28Коллекции%29%29</AssemblyName>
+    <RootNamespace>_5._0_Сериализация_и_Десириализация_обьектов</RootNamespace>
+    <AssemblyName>5.0 Сериализация и Десириализация обьектов</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dictionary.cs" />
-    <Compile Include="DictionaryNew.cs" />
-    <Compile Include="List.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
