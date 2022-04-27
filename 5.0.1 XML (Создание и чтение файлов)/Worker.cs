@@ -6,16 +6,14 @@ using System.Threading.Tasks;
 
 namespace _5._0._1_XML__Создание_и_чтение_файлов_
 {
-    public struct Worker
+  public class Worker
     {
-
-        public string FirstName { get { return this.FirstName; } set { FirstName = value; } }
-        public string LastName { get { return this.LastName; } set { this.LastName = value; } }
-        public string Position { get { return this.Position; } set { this.Position = value; } }
-        public uint Salary { get { return this.Salary; } set { this.Salary = value; } }
-        public string Departament { get { return this.Departament; } set { this.Departament = value; } }
-
-
+        
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Position { get; set; }
+        public uint Salary { get; set; }
+        public string Departament { get; set; }
 
         public Worker(string FirstName, string LastName, string Position, uint Salary, string Departament)
         {
@@ -24,15 +22,32 @@ namespace _5._0._1_XML__Создание_и_чтение_файлов_
             this.Position = Position;
             this.Salary = Salary;
             this.Departament = Departament;
-
         }
-
-        public string Print()
+        public Worker()
         {
-            return ($"{this.FirstName,15} {this.LastName,15} {this.Position,15} {this.Salary,15} {this.Departament,15}");
+
         }
 
-
+        public void Print()
+        {
+            Console.WriteLine(this.FirstName + " " +
+                              this.LastName + " " +
+                              this.Position + " " +
+                              this.Salary + " " +
+                              this.Departament );
+        }
+    
+        public void PrintList(List<Worker> temp)
+        {
+            foreach (var item in temp)
+            {
+                Console.WriteLine(item.FirstName + " " +
+                                    item.LastName + " " +
+                                    item.Position + " " +
+                                    item.Salary + " " +
+                                    item.Departament);
+            }
+        }
     }
 
 
