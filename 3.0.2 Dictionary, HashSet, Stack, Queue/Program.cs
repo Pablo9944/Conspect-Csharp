@@ -164,27 +164,27 @@ namespace _3._0._2_Dictionary__HashSet__Stack__Queue
             #endregion
 
             #region Пример
-            //HashSet<int> set1 = new HashSet<int>(new int [] {1,1,1,1,1,1,1,2,3,4,5});
-            //Console.WriteLine("set1: ");
+            HashSet<int> set1 = new HashSet<int>(new int[] { 1, 1, 1, 1, 1, 1, 1, 2, 3, 4, 5 });
+            Console.WriteLine("set1: ");
 
-            //foreach (var e in set1) { Console.Write($"{e} "); }
+            foreach (var e in set1) { Console.Write($"{e} "); }
 
-            //Console.WriteLine($"\n\nЭлемент '3' Присутствует в set1: {set1.Contains(3)}");
-            //Console.WriteLine($"\n\nЭлемент '20' Присутствует в set1: {set1.Contains(20)}\n");
+            Console.WriteLine($"\n\nЭлемент '3' Присутствует в set1: {set1.Contains(3)}");
+            Console.WriteLine($"\n\nЭлемент '20' Присутствует в set1: {set1.Contains(20)}\n");
 
-            //Console.WriteLine("set2: ");
+            Console.WriteLine("set2: ");
 
-            //HashSet<int> set2 = new HashSet<int>(new int[] { 1,3,5,7,9,11,15});
-            //foreach (var e in set2) { Console.Write($"{e} "); }
+            HashSet<int> set2 = new HashSet<int>(new int[] { 1, 3, 5, 7, 9, 11, 15 });
+            foreach (var e in set2) { Console.Write($"{e} "); }
 
-            //set1.UnionWith(set2);
+            set1.UnionWith(set2);
 
-            //Console.WriteLine("\n\nset1 после UnionWith: ");
-            //foreach (var e in set1) { Console.Write($"{e} "); }
+            Console.WriteLine("\n\nset1 после UnionWith: ");
+            foreach (var e in set1) { Console.Write($"{e} "); }
 
-            //set1.ExceptWith(new int[] { 3, 5, 15 });
-            //Console.WriteLine("\n\nset1 после ExceptWith(new int[] { 3, 5, 15 }): ");
-            //foreach (var e in set1) { Console.Write($"{e} "); }
+            set1.ExceptWith(new int[] { 3, 5, 15 });
+            Console.WriteLine("\n\nset1 после ExceptWith(new int[] { 3, 5, 15 }): ");
+            foreach (var e in set1) { Console.Write($"{e} "); }
 
             #endregion
 
@@ -222,10 +222,10 @@ namespace _3._0._2_Dictionary__HashSet__Stack__Queue
             //}
             #endregion
 
-           
-          
-            
-           
+
+
+
+
         }
     }
 }
