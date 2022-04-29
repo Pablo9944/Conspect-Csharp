@@ -10,7 +10,14 @@ namespace _666.Тестовая
     {
         static void Main(string[] args)
         {
-           
+            Office of = new Office(new Operator("Александр", "Герасимов", 60000, "CВО"),
+                                   new Operator("Александр", "Герасимов", 60000, "CВО"),
+                                   new Operator("Александр", "Герасимов", 60000, "CВО"));
+
+            for (int i = 0; i < of.id.Length; i++)
+            {
+                Console.WriteLine(of.id[i].Print());
+            }
         }
     
     

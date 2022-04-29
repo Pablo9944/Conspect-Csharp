@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5DECD084-F3B6-4F1E-A0D6-71C3428AC642}</ProjectGuid>
+    <ProjectGuid>{49C32924-B7E8-447C-AF05-48F5EDDFD3D9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_666.Тестовая</RootNamespace>
-    <AssemblyName>_666.Тестовая</AssemblyName>
+    <RootNamespace>_4_is__Для_проверки_возможности_преобразования_</RootNamespace>
+    <AssemblyName>4 is %28Для проверки возможности преобразования%29</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Office.cs" />
-    <Compile Include="Operator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
