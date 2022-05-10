@@ -1,0 +1,9 @@
+﻿<Application x:Class="_7._2_Базовые_компоненты_WPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:_7._2_Базовые_компоненты_WPF"
+             StartupUri="Window5.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

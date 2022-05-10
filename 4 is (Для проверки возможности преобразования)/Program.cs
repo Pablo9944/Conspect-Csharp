@@ -20,6 +20,12 @@ namespace _4_is__Для_проверки_возможности_преобраз
                 Console.WriteLine("Экземпляр имеет тип Animal");
             }
 
+            Creature cr = new Human();
+
+            if (cr is Human)
+            {
+                Console.WriteLine("Экземпляр не тип Human");
+            }
 
         }
     }
