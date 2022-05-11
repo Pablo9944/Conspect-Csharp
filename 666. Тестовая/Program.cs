@@ -8,14 +8,12 @@ namespace _666.Тестовая
 {
     internal class Program
     {
+
         static void Main(string[] args)
         {
 
-           
-            
-        }
-    
-    }
 
-    
+        }
+
+    }   
 }

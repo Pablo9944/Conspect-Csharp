@@ -137,6 +137,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2 Базовые комп
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.3 Ресурсы приложения", "7.3 Ресурсы приложения\7.3 Ресурсы приложения.csproj", "{419C1B43-4B19-4EBE-9627-B339AF163EAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.0 Обработка исключений (try catch finally)", "8.0 Обработка исключений (try catch finally)\8.0 Обработка исключений (try catch finally).csproj", "{DE2260AD-B4FA-4653-8406-8352F46A600F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -403,6 +405,10 @@ Global
 		{419C1B43-4B19-4EBE-9627-B339AF163EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{419C1B43-4B19-4EBE-9627-B339AF163EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{419C1B43-4B19-4EBE-9627-B339AF163EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE2260AD-B4FA-4653-8406-8352F46A600F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE2260AD-B4FA-4653-8406-8352F46A600F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE2260AD-B4FA-4653-8406-8352F46A600F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE2260AD-B4FA-4653-8406-8352F46A600F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
