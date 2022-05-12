@@ -15,6 +15,16 @@ namespace _5_as__Проверка_на_null_
             Creature creature = (Creature)human;
             Creature secondCreature = new Animal();
 
+            object obj = "";
+
+            Animal a = obj as Animal;
+
+            if (a != null)
+            {
+                Console.WriteLine("Преобразование прошло успешно");
+            }
+
+
             Animal animal = secondCreature as Animal;
 
             if (animal != null)

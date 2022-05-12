@@ -27,7 +27,7 @@ namespace _2._5_Работа_с_файлами__File__FileInfo__Directory__Direc
             //lines = new string[] { "один", "два", "три" };
             //File.AppendAllLines(@"D:\C#.txt", lines);
 
-            //string path1 = File.ReadAllText(@"D:\test.txt"); //берез из файла текст и добавляет без замены в указанный файл
+            //string path1 = File.ReadAllText(@"D:\test.txt"); //берет из файла текст и добавляет без замены в указанный файл
             //File.AppendAllText(@"D:\C#.txt", path1);
 
             //File.Delete(way); //удаляет файл

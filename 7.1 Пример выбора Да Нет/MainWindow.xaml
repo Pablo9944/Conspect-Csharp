@@ -1,0 +1,47 @@
+﻿<Window x:Class="_7._1_Пример_выбора_Да_Нет.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_7._1_Пример_выбора_Да_Нет"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="354*"/>
+            <ColumnDefinition Width="121*"/>
+            <ColumnDefinition Width="325*"/>
+        </Grid.ColumnDefinitions>
+        <Canvas x:Name="canva">
+
+            <TextBlock x:Name="txtQueston"
+                     Canvas.Left="354" 
+                     Text="Выбери аккаунт" 
+                     Canvas.Top="132" 
+                     Width="120" 
+                     TextAlignment="Center"
+                     Background="Beige"/>
+            
+            <TextBlock x:Name="txtConsultant"
+                    Canvas.Left="230" 
+                    TextWrapping="Wrap" 
+                    Text="Консультант" 
+                    Canvas.Top="252" Width="123" 
+                    TextAlignment="Center" 
+                    MouseDown="txtConsultant_MouseDown"
+                    Background="Beige"/>
+
+
+            <TextBlock x:Name="txtManager"
+                    Canvas.Left="474" 
+                    TextWrapping="Wrap" 
+                    Text="Manager" 
+                    Canvas.Top="252" Width="123" 
+                    TextAlignment="Center" 
+                    MouseEnter="txtManager_MouseEnter"
+                    Background="Beige"/>
+
+        </Canvas>
+
+    </Grid>
+</Window>
