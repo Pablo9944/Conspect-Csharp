@@ -11,9 +11,13 @@ namespace _666.Тестовая
 
         static void Main(string[] args)
         {
-
+            
 
         }
 
-    }   
+    }
+
+    
+    
+
 }
