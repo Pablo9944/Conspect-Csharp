@@ -64,9 +64,11 @@ namespace _6._0._1__WebClient_для_работы_со_сторонними_се
 
                     Console.WriteLine(text);
 
-                    if (userMessage == "hi")
+                    if (userMessage == "Привет")
                     {
+                         
                         string responseText = $"Здравствуйте, {useFirstrName}";
+                        System.Threading.Thread.Sleep(2000);
                         url = $"{startUrl}sendMessage?chat_id={userId}&text={responseText}";
                         //Console.WriteLine("+");
                         Console.WriteLine(wc.DownloadString(url));
