@@ -41,7 +41,7 @@ namespace _2._5._1_StreamWriter_и_StreamReader
             //    streamWriter.WriteLine(Dir.Name);  // !Если меньше 4кб то не выгружает на диск
             //    Console.WriteLine(Dir.Name);
             //}
-            //streamWriter.Flush(); // записывает файлы даже если меньше 4кб
+            //streamWriter.Flush(); // Очистить текущий буфер.(записывает файлы даже если меньше 4кб)
             //streamWriter.Close(); // закрывает поток
 
 

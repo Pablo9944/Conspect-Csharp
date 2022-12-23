@@ -19,7 +19,7 @@ namespace _6.События
             mouse.Click += new PushPrinterButton(mouse.OnMouseClick);
             mouse.Click += new PushPrinterButton(mouse.OnMouseClickVersionTwo);
 
-            mouse.Click -= new PushPrinterButton(mouse.OnMouseClick);
+           // mouse.Click -= new PushPrinterButton(mouse.OnMouseClick);
             // вызывется событие
             mouse.DoEvent();
         }

@@ -52,7 +52,7 @@ namespace _1_HomeWork
 
                     sw.WriteLine(temp);
                     Console.Write("Для продолжения заполнения нажмите 'н' или 'д': " + Environment.NewLine);
-                    key = key = Console.ReadKey(true).KeyChar;
+                    key = Console.ReadKey(true).KeyChar;
                   
 
                 } 
