@@ -12,6 +12,7 @@ namespace _8._0_Обработка_исключений__try_catch_finally_
         {
             OverflowException ovex = new OverflowException("Помните что вы можете использоваться числа до 255");
             ovex.HelpLink = "https://go.skillbox.ru/education/course/weblayout";
+            
             int x = 0;
             metka:
             try
@@ -20,8 +21,13 @@ namespace _8._0_Обработка_исключений__try_catch_finally_
                 x = int.Parse(Console.ReadLine());
                 if (x > 255)
                 {
+                  throw new ArgumentOutOfRangeException("Перебор");
                   throw ovex;
                 }
+            }
+            catch (ArgumentOutOfRangeException e) 
+            {
+                Console.WriteLine(e.Message);
             }
             catch (FormatException e)
             {

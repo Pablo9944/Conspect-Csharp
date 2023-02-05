@@ -62,65 +62,66 @@ namespace _5._0._3_JSON
             #endregion
 
             #region Parse
-            string json = File.ReadAllText(@"F:\5_0_3.json");
-            Console.WriteLine(json);
+            //string json = File.ReadAllText(@"F:\5_0_3.json");
+            //Console.WriteLine(json);
 
 
-            Console.WriteLine(JObject.Parse(json)["FirstName"].ToString());
+            //Console.WriteLine(JObject.Parse(json)["FirstName"].ToString());
 
             #endregion
 
             #region Create
-            JArray array = new JArray();
+            //JArray array = new JArray();
             
-            //Узел
-            JObject mainTree = new JObject();
+            ////Узел
+            //JObject mainTree = new JObject();
 
 
-            mainTree["ok"] = true;
-            JObject o = new JObject();
-            o["update_id"] = 666;
-            o["message_id"] = 777;
+            //mainTree["ok"] = true;
+            //JObject o = new JObject();
+            //o["update_id"] = 666;
+            //o["message_id"] = 777;
 
-            array.Add(o);
-            array.Add(o);
-            array.Add(o);
+            //array.Add(o);
+            //array.Add(o);
+            //array.Add(o);
 
-            // по ключу message храним массив значений
-            mainTree["message"] = array;
-            JObject userObj = new JObject();
-            userObj["id"] = 123123;
-            userObj["firstname"] = "Test";
-            userObj["username"] = "test";
+            //// по ключу message храним массив значений
+            //mainTree["message"] = array;
+            //JObject userObj = new JObject();
+            //userObj["id"] = 123123;
+            //userObj["firstname"] = "Test";
+            //userObj["username"] = "test";
 
-            mainTree["user"] = userObj;
+            //mainTree["user"] = userObj;
 
-            File.WriteAllText(@"F:\jsonCreate.json", mainTree.ToString());
+            //File.WriteAllText(@"F:\jsonCreate.json", mainTree.ToString());
 
 
             #endregion
 
             #region Пример
             List<Worker> list = new List<Worker>();  
-            JObject data = new JObject();
-            JArray Myarray = new JArray();
+           // JObject data = new JObject();
+            //JArray Myarray = new JArray();
 
+            JObject obj = new JObject();
             for (int i = 1; i < 6; i++)
             {
-                JObject obj = new JObject();
+                obj = new JObject();
                 obj["Firstname"] = $"Имя_{i}";
                 obj["LastName"] = $"Фамиля_{i}";
                 obj["Position"] = $"Должность_{i}";
                 obj["Salary"] = $"Зарплата{i*10000}";
                 obj["Department"] = $"Департамент_{i}";
 
-                Myarray.Add(obj);   
+                 
             }
 
            
 
 
-            File.WriteAllText(@"F:\Пример.json", Myarray.ToString());
+            File.WriteAllText(@"D:\Пример.json", obj.ToString());
 
 
             #endregion
