@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ListOfBooks>
+	<Book>
+		<Title Fontsize ="8">Title-1</Title>"
+		<Price>50</Price>
+	</Book>
+	<Book>
+		<Title Fontsize ="10">Title-2</Title>"
+		<Price>150</Price>
+	</Book>
+</ListOfBooks>

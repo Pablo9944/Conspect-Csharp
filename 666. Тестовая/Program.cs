@@ -5,41 +5,41 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 using System.IO;
-
+using System.Security.Policy;
+using System.Collections;
+using System.Threading;
 
 namespace _666.Тестовая
 {
     internal class Program
     {
-        
-        static void Main(string[] args)
-        {
-            Office of = new Office(new Operator("Александр", "Герасимов", 60000, "CВО"),
-                                   new Operator("Александр", "Герасимов", 60000, "CВО"),
-                                   new Operator("Александр", "Герасимов", 60000, "CВО"));
 
-            for (int i = 0; i < of.id.Length; i++)
+        static void Main()
+        {
+
+            Console.WriteLine("Введите:");
+          
+            Func<Task<string>> f = new Func<Task<string>>(ConsoleReadLine);
+
+            Console.WriteLine(f.BeginInvoke(null,null)); 
+
+            
+        } 
+        static async Task<string> ConsoleReadLine()
+        {
+            string temp = "";
+            Task.Delay(2000).Wait();
+            await Task.Run(delegate
             {
-                Console.WriteLine(of.id[i].Print());
-            }
+                
+                temp = Console.ReadLine();
+                Console.WriteLine(temp);
+            });
+            return temp;
         }
+    
+    } 
 
-        static void Start(int number) => Console.WriteLine(number);
-        static void Starts(string number) => Console.WriteLine(number);
-
-    }
-
-    public delegate void Delegat_Test(int number);
-    class MyClass
-    {
-       
-
-        public Delegat_Test dT { get; set; }
-
-        public void Show(int number)
-        {
-            dT(number);
-        }
-    }
+   
 
 }
